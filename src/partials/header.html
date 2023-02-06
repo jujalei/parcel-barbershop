@@ -1,27 +1,54 @@
 <header class="header">
   <div class="header-container container">
-    <a href="./index.html"><img src="./images/logotype.svg" alt="logo" /></a>
+    <a href="">
+      <svg class="logotype" width="55.46" height="68.96">
+        <use href="./images/sprite.svg#logotype"></use>
+      </svg>
+    </a>
+
+    <div class="menu">
+      <nav class="menu-navigation">
+        <ul class="marker menu-list">
+          <li><a href="" class="menu-link">About</a></li>
+          <li><a href="" class="menu-link">Services and prices</a></li>
+          <li><a href="" class="menu-link">Barbers</a></li>
+          <li><a href="" class="menu-link">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="menu-contacts"></div>
+      <a href="tel:+380441111111" class="tel-num-dark">+38 044 111 11 11</a>
+      <button type="button" class="booking-btn dark">online-booking</button>
+    </div>
+    </div>
 
     <button type="button" class="burger-menu" data-menu-open>
-      <img src="./images/menu_burger.svg" alt="open mobile menu" />
+      <svg class="logotype" width="40" height="40">
+      <use href="./images/sprite.svg#menu_burger"></use>
+    </svg>
     </button>
   </div>
 
   <div class="mobile-menu container" data-menu>
     <div class="mobile-menu-container">
       <button type="button" class="close-btn" data-menu-close>
-        <img src="./images/close-mobile-menu-btn.svg" alt="cross" />
+        <svg class="close-btn" width="40" height="40">
+          <use href="./images/sprite.svg#close-mobile-menu-btn"></use>
+        </svg>
       </button>
       <nav class="mobile-menu-navigation">
         <ul class="marker mobile-menu-list">
-          <li><a href="" class="mobile-menu-item">About</a></li>
-          <li><a href="" class="mobile-menu-item">Services and prices</a></li>
-          <li><a href="" class="mobile-menu-item">Barbers</a></li>
-          <li><a href="" class="mobile-menu-item">Contacts</a></li>
+          <li><a href="" class="mobile-menu-link">About</a></li>
+          <li><a href="" class="mobile-menu-link">Services and prices</a></li>
+          <li><a href="" class="mobile-menu-link">Barbers</a></li>
+          <li><a href="" class="mobile-menu-link">Contacts</a></li>
         </ul>
       </nav>
       <a href="tel:+380441111111" class="tel-num">+38 044 111 11 11</a>
       <button type="button" class="booking-btn light">online-booking</button>
+      <ul class="mobile-media-list">
+        <li><a href="" class="mobile-media-link" link>Instagram</a></li>
+        <li><a href="" class="mobile-media-link" link>Youtube</a></li>
+      </ul>
     </div>
   </div>
 </header>
